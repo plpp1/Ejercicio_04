@@ -1,9 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        for (var numero =0; numero <3; numero = numero+1){
+        int numero = 0;
+
+        do {
             System.out.println(numero);
-
+            numero = numero + 1;
         }
-    }
+        while (numero < 3 );
 
+
+    }
 }
