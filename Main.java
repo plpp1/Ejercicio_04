@@ -1,24 +1,9 @@
 public class Main {
     public static void main(String[] args) {
+        for (var numero =0; numero <3; numero = numero+1){
+            System.out.println(numero);
 
-        var estacion = "INVIERNO";
-
-        switch (estacion){
-            case "OTOÑO":
-                System.out.println("es otoño");
-                break;
-            case "VERANO":
-                System.out.println("es verano");
-                break;
-            case "PRIMAVERA":
-                System.out.println("es verano");
-                break;
-            case "INVIERNO":
-                System.out.println("es invierno");
-                break;
-            default:
-                System.out.println("no es una estacion");
         }
-
     }
+
 }
